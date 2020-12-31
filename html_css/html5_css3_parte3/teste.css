@@ -1,0 +1,33 @@
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+
+li{
+    display: inline-block;
+    width: 30%;
+    height: 200px;
+    font-size: 20px;
+    text-align: center;
+    vertical-align: top;
+    box-sizing: border-box;
+    
+    
+    margin: 0 1.5%;
+    /*padding: 30px 20px;
+    box-sizing: border-box;
+    */
+
+}
+
+#primeiro{
+    background: red;
+}
+
+#segundo{
+    background: green;
+}
+
+#terceiro{
+    background: blue;
+}
