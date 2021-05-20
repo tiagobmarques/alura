@@ -1,0 +1,6 @@
+C:\Users\u0181365\Desktop\Curso Alura\C# parte 1 Primeiros Passos\AprendendoCSharp\10-CalculaPoupanca\bin\Debug\10-CalculaPoupanca.exe.config
+C:\Users\u0181365\Desktop\Curso Alura\C# parte 1 Primeiros Passos\AprendendoCSharp\10-CalculaPoupanca\bin\Debug\10-CalculaPoupanca.exe
+C:\Users\u0181365\Desktop\Curso Alura\C# parte 1 Primeiros Passos\AprendendoCSharp\10-CalculaPoupanca\bin\Debug\10-CalculaPoupanca.pdb
+C:\Users\u0181365\Desktop\Curso Alura\C# parte 1 Primeiros Passos\AprendendoCSharp\10-CalculaPoupanca\obj\Debug\P10-CalculaPoupanca.csprojResolveAssemblyReference.cache
+C:\Users\u0181365\Desktop\Curso Alura\C# parte 1 Primeiros Passos\AprendendoCSharp\10-CalculaPoupanca\obj\Debug\10-CalculaPoupanca.exe
+C:\Users\u0181365\Desktop\Curso Alura\C# parte 1 Primeiros Passos\AprendendoCSharp\10-CalculaPoupanca\obj\Debug\10-CalculaPoupanca.pdb

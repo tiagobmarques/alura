@@ -1,0 +1,29 @@
+2019-09-17 16:29:46,958 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2019-09-17 16:41:12,695 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2019-09-18 10:59:34,638 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2019-09-18 13:35:28,828 [Worker-31: Auto share git projects] WARN  org.eclipse.jgit.util.FS - C:\Program Files\Git\mingw64\etc\.probe-7df55af4-ee1b-4eed-a0da-816930f6974a
+java.nio.file.AccessDeniedException: C:\Program Files\Git\mingw64\etc\.probe-7df55af4-ee1b-4eed-a0da-816930f6974a
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:83) ~[na:1.8.0_212]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:97) ~[na:1.8.0_212]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:102) ~[na:1.8.0_212]
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:230) ~[na:1.8.0_212]
+	at java.nio.file.Files.newByteChannel(Files.java:361) ~[na:1.8.0_212]
+	at java.nio.file.Files.createFile(Files.java:632) ~[na:1.8.0_212]
+	at org.eclipse.jgit.util.FS$FileStoreAttributeCache.<init>(FS.java:234) ~[org.eclipse.jgit_5.4.0.201906121030-r.jar:5.4.0.201906121030-r]
+	at org.eclipse.jgit.util.FS$FileStoreAttributeCache.getFsTimestampResolution(FS.java:211) ~[org.eclipse.jgit_5.4.0.201906121030-r.jar:5.4.0.201906121030-r]
+	at org.eclipse.jgit.util.FS.getFsTimerResolution(FS.java:321) [org.eclipse.jgit_5.4.0.201906121030-r.jar:5.4.0.201906121030-r]
+	at org.eclipse.jgit.internal.storage.file.FileSnapshot.<init>(FileSnapshot.java:186) [org.eclipse.jgit_5.4.0.201906121030-r.jar:5.4.0.201906121030-r]
+	at org.eclipse.jgit.internal.storage.file.FileSnapshot.save(FileSnapshot.java:122) [org.eclipse.jgit_5.4.0.201906121030-r.jar:5.4.0.201906121030-r]
+	at org.eclipse.jgit.storage.file.FileBasedConfig.load(FileBasedConfig.java:156) [org.eclipse.jgit_5.4.0.201906121030-r.jar:5.4.0.201906121030-r]
+	at org.eclipse.jgit.internal.storage.file.FileRepository.loadSystemConfig(FileRepository.java:245) [org.eclipse.jgit_5.4.0.201906121030-r.jar:5.4.0.201906121030-r]
+	at org.eclipse.jgit.internal.storage.file.FileRepository.<init>(FileRepository.java:203) [org.eclipse.jgit_5.4.0.201906121030-r.jar:5.4.0.201906121030-r]
+	at org.eclipse.jgit.storage.file.FileRepositoryBuilder.build(FileRepositoryBuilder.java:88) [org.eclipse.jgit_5.4.0.201906121030-r.jar:5.4.0.201906121030-r]
+	at org.eclipse.jgit.storage.file.FileRepositoryBuilder.create(FileRepositoryBuilder.java:108) [org.eclipse.jgit_5.4.0.201906121030-r.jar:5.4.0.201906121030-r]
+	at org.eclipse.egit.core.RepositoryCache.lookupRepository(RepositoryCache.java:58) [org.eclipse.egit.core_5.4.0.201906121030-r.jar:na]
+	at org.eclipse.egit.core.project.GitProjectData.map(GitProjectData.java:693) [org.eclipse.egit.core_5.4.0.201906121030-r.jar:na]
+	at org.eclipse.egit.core.project.GitProjectData.remapAll(GitProjectData.java:651) [org.eclipse.egit.core_5.4.0.201906121030-r.jar:na]
+	at org.eclipse.egit.core.project.GitProjectData.setRepositoryMappings(GitProjectData.java:465) [org.eclipse.egit.core_5.4.0.201906121030-r.jar:na]
+	at org.eclipse.egit.core.op.ConnectProviderOperation.connectProject(ConnectProviderOperation.java:153) [org.eclipse.egit.core_5.4.0.201906121030-r.jar:na]
+	at org.eclipse.egit.core.op.ConnectProviderOperation.execute(ConnectProviderOperation.java:111) [org.eclipse.egit.core_5.4.0.201906121030-r.jar:na]
+	at org.eclipse.egit.core.internal.job.JobUtil$1.run(JobUtil.java:55) [org.eclipse.egit.core_5.4.0.201906121030-r.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) [org.eclipse.core.jobs_3.10.400.v20190506-1457.jar:na]

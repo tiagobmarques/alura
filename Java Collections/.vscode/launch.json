@@ -1,0 +1,10 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TestandoListas",
+            "request": "launch",
+            "mainClass": "br.com.tr.TestandoListas"
+        }
+    ]
+}

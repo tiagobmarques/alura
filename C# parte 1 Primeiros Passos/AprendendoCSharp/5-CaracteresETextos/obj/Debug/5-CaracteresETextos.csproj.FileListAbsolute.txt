@@ -1,0 +1,5 @@
+C:\Users\u0181365\Desktop\Curso Alura\C# parte 1 Primeiros Passos\AprendendoCSharp\5-CaracteresETextos\bin\Debug\5-CaracteresETextos.exe.config
+C:\Users\u0181365\Desktop\Curso Alura\C# parte 1 Primeiros Passos\AprendendoCSharp\5-CaracteresETextos\bin\Debug\5-CaracteresETextos.exe
+C:\Users\u0181365\Desktop\Curso Alura\C# parte 1 Primeiros Passos\AprendendoCSharp\5-CaracteresETextos\bin\Debug\5-CaracteresETextos.pdb
+C:\Users\u0181365\Desktop\Curso Alura\C# parte 1 Primeiros Passos\AprendendoCSharp\5-CaracteresETextos\obj\Debug\5-CaracteresETextos.exe
+C:\Users\u0181365\Desktop\Curso Alura\C# parte 1 Primeiros Passos\AprendendoCSharp\5-CaracteresETextos\obj\Debug\5-CaracteresETextos.pdb

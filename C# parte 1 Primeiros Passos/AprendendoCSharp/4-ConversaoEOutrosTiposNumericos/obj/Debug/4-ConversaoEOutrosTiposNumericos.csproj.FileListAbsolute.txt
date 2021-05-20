@@ -1,0 +1,5 @@
+C:\Users\u0181365\Desktop\Curso Alura\C# parte 1 Primeiros Passos\AprendendoCSharp\4-ConversaoEOutrosTiposNumericos\bin\Debug\4-ConversaoEOutrosTiposNumericos.exe.config
+C:\Users\u0181365\Desktop\Curso Alura\C# parte 1 Primeiros Passos\AprendendoCSharp\4-ConversaoEOutrosTiposNumericos\bin\Debug\4-ConversaoEOutrosTiposNumericos.exe
+C:\Users\u0181365\Desktop\Curso Alura\C# parte 1 Primeiros Passos\AprendendoCSharp\4-ConversaoEOutrosTiposNumericos\bin\Debug\4-ConversaoEOutrosTiposNumericos.pdb
+C:\Users\u0181365\Desktop\Curso Alura\C# parte 1 Primeiros Passos\AprendendoCSharp\4-ConversaoEOutrosTiposNumericos\obj\Debug\4-ConversaoEOutrosTiposNumericos.exe
+C:\Users\u0181365\Desktop\Curso Alura\C# parte 1 Primeiros Passos\AprendendoCSharp\4-ConversaoEOutrosTiposNumericos\obj\Debug\4-ConversaoEOutrosTiposNumericos.pdb

@@ -1,0 +1,11 @@
+C:\Users\u0181365\Desktop\Curso Alura\Selenium\SeleniumAula02\SeleniumAula02\bin\Debug\SeleniumAula02.exe.config
+C:\Users\u0181365\Desktop\Curso Alura\Selenium\SeleniumAula02\SeleniumAula02\bin\Debug\SeleniumAula02.exe
+C:\Users\u0181365\Desktop\Curso Alura\Selenium\SeleniumAula02\SeleniumAula02\bin\Debug\SeleniumAula02.pdb
+C:\Users\u0181365\Desktop\Curso Alura\Selenium\SeleniumAula02\SeleniumAula02\bin\Debug\WebDriver.dll
+C:\Users\u0181365\Desktop\Curso Alura\Selenium\SeleniumAula02\SeleniumAula02\bin\Debug\WebDriver.Support.dll
+C:\Users\u0181365\Desktop\Curso Alura\Selenium\SeleniumAula02\SeleniumAula02\bin\Debug\WebDriver.xml
+C:\Users\u0181365\Desktop\Curso Alura\Selenium\SeleniumAula02\SeleniumAula02\bin\Debug\WebDriver.Support.xml
+C:\Users\u0181365\Desktop\Curso Alura\Selenium\SeleniumAula02\SeleniumAula02\obj\Debug\SeleniumAula02.csprojResolveAssemblyReference.cache
+C:\Users\u0181365\Desktop\Curso Alura\Selenium\SeleniumAula02\SeleniumAula02\obj\Debug\SeleniumAula02.exe
+C:\Users\u0181365\Desktop\Curso Alura\Selenium\SeleniumAula02\SeleniumAula02\obj\Debug\SeleniumAula02.pdb
+C:\Users\u0181365\Desktop\Curso Alura\Selenium\SeleniumAula02\SeleniumAula02\bin\Debug\geckodriver.exe

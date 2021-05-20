@@ -1,0 +1,15 @@
+package br.com.tr.employee.model;
+
+import java.util.UUID;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+
+@Entity
+public class Client {
+
+    @Id
+    private UUID client_id; 
+    private String name;
+}

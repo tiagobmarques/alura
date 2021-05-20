@@ -1,0 +1,6 @@
+C:\Users\u0181365\Desktop\Curso Alura\C# parte 1 Primeiros Passos\AprendendoCSharp\2-CriandoVariaveis\bin\Debug\2-CriandoVariaveis.exe.config
+C:\Users\u0181365\Desktop\Curso Alura\C# parte 1 Primeiros Passos\AprendendoCSharp\2-CriandoVariaveis\bin\Debug\2-CriandoVariaveis.exe
+C:\Users\u0181365\Desktop\Curso Alura\C# parte 1 Primeiros Passos\AprendendoCSharp\2-CriandoVariaveis\bin\Debug\2-CriandoVariaveis.pdb
+C:\Users\u0181365\Desktop\Curso Alura\C# parte 1 Primeiros Passos\AprendendoCSharp\2-CriandoVariaveis\obj\Debug\2-CriandoVariaveis.csprojResolveAssemblyReference.cache
+C:\Users\u0181365\Desktop\Curso Alura\C# parte 1 Primeiros Passos\AprendendoCSharp\2-CriandoVariaveis\obj\Debug\2-CriandoVariaveis.exe
+C:\Users\u0181365\Desktop\Curso Alura\C# parte 1 Primeiros Passos\AprendendoCSharp\2-CriandoVariaveis\obj\Debug\2-CriandoVariaveis.pdb

@@ -1,0 +1,5 @@
+C:\Users\u0181365\Desktop\Curso Alura\C# parte 2 Introdução á orientação a Objetos\ByteBank\02-ByteBank\bin\Debug\02-ByteBank.exe.config
+C:\Users\u0181365\Desktop\Curso Alura\C# parte 2 Introdução á orientação a Objetos\ByteBank\02-ByteBank\bin\Debug\02-ByteBank.exe
+C:\Users\u0181365\Desktop\Curso Alura\C# parte 2 Introdução á orientação a Objetos\ByteBank\02-ByteBank\bin\Debug\02-ByteBank.pdb
+C:\Users\u0181365\Desktop\Curso Alura\C# parte 2 Introdução á orientação a Objetos\ByteBank\02-ByteBank\obj\Debug\02-ByteBank.exe
+C:\Users\u0181365\Desktop\Curso Alura\C# parte 2 Introdução á orientação a Objetos\ByteBank\02-ByteBank\obj\Debug\02-ByteBank.pdb
