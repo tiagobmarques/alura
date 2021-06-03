@@ -10,8 +10,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("purchase")
 public class PurchaseController {
 
-    private PurchaseService service;
-    private PurchaseMapper mapper;
+    private final PurchaseService service;
+    private final PurchaseMapper mapper;
 
     public PurchaseController(PurchaseService service, PurchaseMapper mapper) {
         this.service = service;
