@@ -12,5 +12,5 @@ public class SupplierResponse {
     private Long id;
     private String name;
     private String state;
-    private String adress;
+    private String address;
 }

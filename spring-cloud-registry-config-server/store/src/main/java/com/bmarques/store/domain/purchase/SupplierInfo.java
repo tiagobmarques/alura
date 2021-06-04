@@ -11,5 +11,9 @@ import lombok.Setter;
 @AllArgsConstructor
 public class SupplierInfo {
 
-    private String street;
+    private Long id;
+    private String name;
+    private String state;
+    private String address;
+
 }

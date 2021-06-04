@@ -1,6 +1,7 @@
 package com.bmarques.store.domain.purchase;
 
 import org.springframework.http.HttpMethod;
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
@@ -14,7 +15,9 @@ public class PurchaseService {
     }
 
     public void generatePurchase(PurchaseEntity purchaseEntity) {
-        restTemplate.exchange("http://localhost:8081/info/" + purchaseEntity.getAdress().getState(),
+        ResponseEntity<SupplierInfo> exchange = restTemplate.exchange("http://supplier/supplier/" + purchaseEntity.getAdress().getState(),
                 HttpMethod.GET, null, SupplierInfo.class);
+
+        System.out.println(exchange.getBody().getState());
     }
 }

@@ -8,7 +8,7 @@ public class SupplierMapper {
     public SupplierResponse toResponse(SupplierEntity entity) {
         return SupplierResponse.builder()
                 .id(entity.getId())
-                .adress(entity.getAdress())
+                .address(entity.getAdress())
                 .name(entity.getName())
                 .state(entity.getState())
                 .build();
