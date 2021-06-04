@@ -1,23 +1,29 @@
 package com.bmarques.store.domain.purchase;
 
-import org.springframework.http.HttpMethod;
-import org.springframework.http.ResponseEntity;
+import com.bmarques.store.domain.supplier.SupplierClient;
+import com.bmarques.store.domain.supplier.SupplierInfo;
 import org.springframework.stereotype.Service;
-import org.springframework.web.client.RestTemplate;
 
 @Service
 public class PurchaseService {
 
-    private final RestTemplate restTemplate;
+//    private final RestTemplate restTemplate;
+//    private DiscoveryClient discoveryClient;
+    private SupplierClient supplierClient;
 
-    public PurchaseService(RestTemplate restTemplate) {
-        this.restTemplate = restTemplate;
+    public PurchaseService(SupplierClient supplierClient) {
+        this.supplierClient = supplierClient;
     }
 
     public void generatePurchase(PurchaseEntity purchaseEntity) {
-        ResponseEntity<SupplierInfo> exchange = restTemplate.exchange("http://supplier/supplier/" + purchaseEntity.getAdress().getState(),
-                HttpMethod.GET, null, SupplierInfo.class);
+//        ResponseEntity<SupplierInfo> exchange = restTemplate.exchange("http://supplier/supplier/" + purchaseEntity.getAdress().getState(),
+//                HttpMethod.GET, null, SupplierInfo.class);
+// This is to list all instances
+//        discoveryClient.getInstancesById("supplier")
+//                .forEach(supplier -> System.out.println("localhost:"+supplier.getPort()));
 
-        System.out.println(exchange.getBody().getState());
+        SupplierInfo supplierByState = supplierClient.getSupplierByState(purchaseEntity.getAdress().getState());
+
+        System.out.println(supplierByState.getState());
     }
 }
