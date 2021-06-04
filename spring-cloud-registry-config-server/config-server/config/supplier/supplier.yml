@@ -1,0 +1,9 @@
+
+spring:
+  datasource:
+    password: password
+    username: root
+    url: 'jdbc:mysql://localhost:3307/spring-cloud-supplier-db'
+  jpa:
+    hibernate:
+      ddl-auto: update
