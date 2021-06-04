@@ -1,18 +1,6 @@
 server:
   port: 8081
 
-spring:
-  application:
-    name: 'supplier'
-  datasource:
-    url: jdbc:mariadb://localhost:3307/spring-cloud-supplier-db
-    username: root
-    password: password
-    driver-class-name: org.mariadb.jdbc.Driver
-  jpa:
-    hibernate:
-      ddl-auto: update
-
 eureka:
   client:
     register-with-eureka: true

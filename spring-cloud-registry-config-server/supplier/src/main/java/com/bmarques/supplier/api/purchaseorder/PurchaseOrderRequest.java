@@ -1,4 +1,4 @@
-package com.bmarques.store.domain.purchase;
+package com.bmarques.supplier.api.purchaseorder;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -9,11 +9,9 @@ import lombok.Setter;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-public class SupplierInfo {
+public class PurchaseOrderRequest {
 
-    private Long id;
-    private String name;
-    private String state;
-    private String address;
+    private long id;
+    private int count;
 
 }
