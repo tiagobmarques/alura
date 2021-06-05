@@ -1,6 +1,5 @@
 package com.bmarques.supplier.api.purchaseorder;
 
-import com.bmarques.supplier.domain.purchaseorder.PurchaseOrderItemEntity;
 import com.bmarques.supplier.domain.purchaseorder.PurchaseOrderStatus;
 import lombok.*;
 

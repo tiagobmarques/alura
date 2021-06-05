@@ -20,6 +20,6 @@ public class PurchaseController {
 
     @PostMapping
     public void save(@RequestBody PurchaseRequest purchaseRequest) {
-        service.generatePurchase(mapper.toEntity(purchaseRequest));
+        service.generatePurchase(mapper.toDto(purchaseRequest));
     }
 }

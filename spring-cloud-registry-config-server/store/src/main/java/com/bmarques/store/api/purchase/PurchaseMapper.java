@@ -1,7 +1,7 @@
 package com.bmarques.store.api.purchase;
 
 import com.bmarques.store.domain.purchase.PurchaseAdressEntity;
-import com.bmarques.store.domain.purchase.PurchaseEntity;
+import com.bmarques.store.domain.purchase.PurchaseDto;
 import com.bmarques.store.domain.purchase.PurchaseItemsEntity;
 import org.springframework.stereotype.Component;
 
@@ -10,8 +10,8 @@ import java.util.stream.Collectors;
 @Component
 public class PurchaseMapper {
 
-    public PurchaseEntity toEntity(final PurchaseRequest purchaseRequest) {
-        return PurchaseEntity.builder()
+    public PurchaseDto toDto(final PurchaseRequest purchaseRequest) {
+        return PurchaseDto.builder()
                 .items(purchaseRequest.getItems().stream()
                         .map(request -> PurchaseItemsEntity.builder()
                                 .id(request.getId())
